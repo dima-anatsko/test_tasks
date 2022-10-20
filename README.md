@@ -4,7 +4,19 @@
 1. Склонировать репозиторий себе
 2. Активизировать виртуальное окружение: `source myenv/bin/activate`
 3. Установить зависимости: `pip install -r requirements.txt`
-4. Запустить локальный сервер: `python manage.py runserver`
+4. Создать файл .env с настройками проекта (должен располагаться рядом с manage.py)
+5. Запустить локальный сервер: `python manage.py runserver`
+
+Пример файла .env:
+```text
+DEBUG=on
+SECRET_KEY=your_secret_key
+DATABASE_NAME=your_db_name
+DATABASE_USER=your_db_user
+DATABASE_PASSWORD=your_db_password
+DATABASE_HOST=your_db_host
+DATABASE_PORT=your_db_port
+```
 ___
 
 #### Пример запроса для получения данных по артиклю:
