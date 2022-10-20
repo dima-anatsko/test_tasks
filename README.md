@@ -34,20 +34,20 @@ curl --location --request POST 'http://127.0.0.1:8000/wildberries/products' \
 Пример ответа:
 ```json
 [
-	{
+    {
         "article": 73508252,
         "brand": "Мир Фигурного Катания",
         "title": "Аксессуар для коньков"
-	},
-	{
+    },
+    {
         "article": 17272715,
         "brand": "Rabby",
         "title": "Комплекты БДСМ / 10 шт."
-	},
-	{
+    },
+    {
         "article": 46090851,
         "brand": "Luckybox",
         "title": "Подарок папе мужчине отцу сладкий бокс"
-	}
+    }
 ]
 ```
